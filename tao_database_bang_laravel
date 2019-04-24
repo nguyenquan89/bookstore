@@ -1,0 +1,14 @@
+Cach tao bang du dieu database tren SQL bang laravel
+NGUYEN QUAN@NGUYENQUAN-PC MINGW64 /c/xampp/htdocs/blog1 (master)
+$ php artisan make:migration create_books //tao file trong thu muc database
+
+$ php artisan migrate //tao bang du leu trong sql database
+$ php artisan migrate //cap nhat bang du lieu tren sql khi da sua code
+$ php artisan make:seeder BookSeeder // tao du lieu mau
+$ php artisan make:factory BookFactory //quan ly viec tao du lieu mau
+$ php artisan db:seed --class=BookSeeder //File BookSeeder se chay, tren sql se tao ban ghi mau tren muc book trong sql
+
+$ php artisan make:model Author //Tao folder Model
+
+
+
